@@ -1,0 +1,5 @@
+authentication:
+    resource: "@AuthenticationBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

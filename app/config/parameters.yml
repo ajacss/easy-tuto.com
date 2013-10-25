@@ -1,8 +1,8 @@
 parameters:
     database_driver: pdo_mysql
-    database_host: 127.0.0.1
+    database_host: localhost
     database_port: null
-    database_name: easy_tuto_db
+    database_name: intra_tubeo_db
     database_user: ajacss
     database_password: ckcsakrch2
     mailer_transport: smtp

@@ -1,0 +1,20 @@
+{% extends '::base_authentication.html.twig' %}
+{#{% extends 'WmdWatchMyDeskBundle::layout.html.twig' %} #} {#pour plus tard dan le dev d'autre page#}
+
+{% block title %}
+    Intranet Tubeo - connexion
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('sharedfiles/bootstrap/css/bootstrap.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('sharedfiles/sharedfiles/css/metro.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('sharedfiles/font-awesome/css/font-awesome.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('sharedfiles/css/style.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('sharedfiles/css/style_responsive.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('sharedfiles/css/style_default.css') }}" type="text/css" media="all" id="style_color" />
+    <link rel="stylesheet" href="{{ asset('sharedfiles/uniform/css/uniform.default.css') }}" type="text/css" media="all" />
+{% endblock %}
+    
+{% block body %}
+    Hello les fermiers !
+{% endblock %}
