@@ -6,8 +6,26 @@
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
-    <body>
-        {% block body %}{% endblock %}
+    <body class='login'>
+
+    <!-- BEGIN LOGO -->
+  <div class="logo">
+    <img src="{{asset('sharedfiles/img/logo-big.png')}}" style="max-height: 60px;" alt="" /> 
+  </div>
+  <!-- END LOGO -->
+  
+  <div class="content">
+    {% block AuthLoginForm %}{% endblock %}
+    {% block AuthForgotpassForm %}{% endblock %}
+    {% block AuthRegisterForm %}{% endblock %}
+  </div>
+  
+  <!-- BEGIN COPYRIGHT -->
+  <div class="copyright">
+    2013 &copy; intranet Tubeo - Admin Dashboard Template - par jansen Arthur.
+  </div>
+  <!-- END COPYRIGHT -->    
+        
         {% block javascripts %}{% endblock %}
     </body>
 </html>
